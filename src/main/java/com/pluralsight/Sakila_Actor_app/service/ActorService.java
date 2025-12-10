@@ -20,10 +20,10 @@ public class ActorService {
     }
 
     public List<Actor> getActorsByFirstName(String firstName) {
-        return actorDao.getActorsByFirstName(firstName);
+        return actorDao.getAllActorsByFirstName(firstName);
     }
 
     public List<Actor> getActorsByLastName(String lastName) {
-        return actorDao.getActorsByLastName(lastName);
+        return actorDao.getAllActorsByLast(lastName);
     }
 }
