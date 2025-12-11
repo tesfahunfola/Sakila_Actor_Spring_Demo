@@ -44,6 +44,7 @@ public class ActorController {
         actorService.updateActor(id, actor);
     }
 
+
     @DeleteMapping("{id}")
     public void deleteActor(@PathVariable int id){
         actorService.deleteActor(id);
